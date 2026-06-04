@@ -1,5 +1,5 @@
 import paho.mqtt.client as mqtt
-from config import MQTT_BROKER, MQTT_PORT, MQTT_TOPIC
+from backend.config import MQTT_BROKER, MQTT_PORT, MQTT_TOPIC
 
 client = mqtt.Client()
 
